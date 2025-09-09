@@ -1,6 +1,8 @@
-/** @type {import('next').NextConfig} */
+﻿/** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-};
+    reactStrictMode: true,
+    // if using src folder
+    // optional basePath if needed
+}
 
-export default nextConfig;
+module.exports = nextConfig
